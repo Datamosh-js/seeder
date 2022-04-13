@@ -1,0 +1,29 @@
+{
+  "name": "@datamosh-js/seeder",
+  "version": "0.0.0",
+  "description": "Standarized seed generation and validation for Datamosh",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test.js",
+    "pretest": "npm run lint",
+    "lint": "standard --verbose --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Datamosh-js/seeder.git"
+  },
+  "author": "Michael Sterpka <michaelsterpka@gmail.com> (https://github.com/mster)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Datamosh-js/seeder/issues"
+  },
+  "homepage": "https://github.com/Datamosh-js/seeder#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "standard": "^16.0.4"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  },
+  "private": false
+}
