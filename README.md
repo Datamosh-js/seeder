@@ -6,14 +6,14 @@ Seeder is not idempotent; it uses the current timestamp when creating the seed.
 
 ## Example:
 ```js
-const { seeder } = require('@datamosh/seeder')
+const { seeder } = require('@datamosh-js/seeder')
 seeder('really', () => 'interesting', { arguments: ':)' })
 // '21620145'
 ```
 
 Needing something a bit longer...
 ```js
-const { seeder512 } = require('@datamosh/seeder')
+const { seeder512 } = require('@datamosh-js/seeder')
 seeder512('really', ['really'], { cool: 'args' })
 // '33a6b55f2df7d44c24544193f302e76e31a44c1e2ce1c2621d3077a8c6b7d177b1c0bd08bd2319bb16aa2556197ffcd5f521d228865599eecc6645d53f44fd12'
 ```
