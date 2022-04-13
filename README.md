@@ -33,4 +33,4 @@ Makes a SHA512 hexadecimal hash
 Validate seed from seeder
 * `arguments <any>`: Seed to validate
 * `nibbles <Number>`: Expected hex [nibble](https://en.wikipedia.org/wiki/Nibble) count
-* Returns: `seed <String>`: SHA512 hexadecimal hash
+* Returns: `result <Boolean>`: The validation status true/false

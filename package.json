@@ -1,6 +1,6 @@
 {
   "name": "@datamosh-js/seeder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Standarized seed generation and validation for Datamosh",
   "main": "index.js",
   "scripts": {
